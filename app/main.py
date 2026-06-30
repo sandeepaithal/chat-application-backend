@@ -613,7 +613,8 @@ def get_friends(
             friends.append({
                 "id": friend.id,
                 "username": friend.username,
-                "email": friend.email
+                "email": friend.email,
+                "profile_picture":friend.profile_picture
             })
 
     return friends
